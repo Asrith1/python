@@ -1,0 +1,8 @@
+def function(a):
+	small_num=min(a)
+	large_num=max(a)
+	return small_num,large_num
+a=[21,54,68,43,19,12]
+small_num,large_num=function(a)
+print(small_num)
+print(large_num)

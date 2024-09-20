@@ -1,0 +1,4 @@
+#Conversion of farenheit temparature into celcius temparature
+Farenheit_temparature=float(input("Enter farenheit value : "))
+Celcius_temparature=(Farenheit_temparature-32)*5/9
+print("Conversion of Farenheit to Celcius : ",Celcius_temparature)

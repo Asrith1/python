@@ -1,0 +1,8 @@
+def function(a):
+	large_num=max(a)
+	a.remove(large_num)
+	second_large=max(a)
+	return second_large
+a=[21,54,68,23,19,12]
+second_large=function(a)
+print(second_large)

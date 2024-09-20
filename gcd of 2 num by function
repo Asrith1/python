@@ -1,0 +1,6 @@
+def gcd(a,b):
+	while b!=0:
+		a,b=b,a%b
+	return a
+result=gcd(54,24)
+print("the gcd of 54and 24 is: ",result)

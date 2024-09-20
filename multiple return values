@@ -1,0 +1,11 @@
+def function(a,b):
+	add=a+b
+	subtract=a-b
+	multiply=a*b
+	divison=a/b
+	return add,subtract,multiply,divison
+add,subtract,multiply,divison=function(20,10)
+print(add)
+print(subtract)
+print(multiply)
+print(divison)

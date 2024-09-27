@@ -1,0 +1,11 @@
+
+def gcd(a,b) :
+	if b==0 :
+		return 0
+	else :
+		while b :
+			a,b=b,a%b
+		return a
+a=int(input("enter a value: "))
+b=int(input("enter b value: "))
+print("GCD of two numbers: ",gcd(a,b))

@@ -1,0 +1,3 @@
+my_dict={'name':'Asrith','age':25}
+my_dict['city']='Ongole'
+print(my_dict)

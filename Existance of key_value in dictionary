@@ -1,0 +1,6 @@
+my_dict={'a':10,'b':20,'c':45,'d':50}
+key=input("enter key value: ")
+if key in my_dict :
+	print("key exists")
+else :
+	print("key doesn't exists")

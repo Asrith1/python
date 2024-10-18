@@ -1,0 +1,16 @@
+class A():
+	def first(self):
+		a=10
+		print(a)
+class B(A):
+	def second(self):
+		b=20
+		print(b)
+class C(B):
+	def third(self):
+		c=30
+		print(c)
+obj = C()
+obj.first()
+obj.second()
+obj.third()
